@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv("46\MachineLearning9\weight-height.csv")
+data = pd.read_csv("46\MachineLearning_9\weight-height.csv")
 X = data['Height'].values
 Y = data['Weight'].values
 X = X.reshape(-1,1)
