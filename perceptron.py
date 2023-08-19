@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.metrics import mean_absolute_error
 
 class perseptron :
     def  __init__(self , input_size ,lr=0.0001 , epochs=10):
